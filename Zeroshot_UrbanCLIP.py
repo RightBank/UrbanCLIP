@@ -15,7 +15,7 @@ def parse_args():
                         choices=['UrbanCLIP', 'Wu', 'Photo', 'CLIP80', 'no_template', 'UrbanCLIP_SC', 'Wu_without_SC'],
                         help= 'can be UrbanCLIP, Wu, Photo, CLIP80, no_template, UrbanCLIP_SC, Wu_without_SC, and please refer to the paper for more details'
                         )
-    parser.add_argument('--ensemble', type=str, default='zpe', choices=['mean', 'zpe'])
+    parser.add_argument('--ensemble', type=str, default='mean', choices=['mean', 'zpe'])
     parser.add_argument('--device', type=str, default='cuda')
     return parser.parse_args()
 

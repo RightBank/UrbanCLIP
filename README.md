@@ -19,7 +19,7 @@ The structure of this repository is as follows:
 
 
 ## `Zeroshot_UrbanCLIP.py`
-`zeroshot_inference.py` is used to carry out zero-shot urban function inference with SVIs. You could specify several arguments in `zeroshot_inference.py`:
+`Zeroshot_UrbanCLIP.py` is used to carry out zero-shot urban function inference with SVIs. You could specify several arguments in `zeroshot_inference.py`:
 
 - `--task`: can be "primary", "multi", "transfer-singapore" or "transfer-london", to reproduce the results in the paper.
 - `--taxomony`: indicate if the developed urban taxomony is to be used, with the option "UrbanCLIP" indicting the use of the urban taxonomy, and "function_name" indicting otherwise.
@@ -29,7 +29,7 @@ The structure of this repository is as follows:
 
 For example, you could run the command: 
 
-`python zeroshot_inference.py --task=primary --device=cuda:0` 
+`python Zeroshot_UrbanCLIP.py --task=primary --device=cuda:0` 
 
 to reproduce the results in the paper on zero-shot primary function inference.
 
@@ -37,4 +37,4 @@ to reproduce the results in the paper on zero-shot primary function inference.
 
 Weiming Huang
 
-Email: weiming.huang@ntu.edu.sg; weiming.huang@nateko.lu.se 
+Email: weiming.huang@nateko.lu.se 

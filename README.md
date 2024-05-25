@@ -1,6 +1,6 @@
 # Zero-shot urban function inference with street view images through prompting a pre-trained vision-language model
 
-This project is linked to a paper accepted to International Journal of Geographical Information Science.
+This project is linked to a paper accepted to International Journal of Geographical Information Science: [Zero-shot urban function inference with street view images through prompting a pretrained vision-language model](https://doi.org/10.1080/13658816.2024.2347322).
 In this study, we develop the prompting framework UrbanCLIP, which builts upon the vision-language pretrained model CLIP, to carry out zero-shot urban function inference using street view images (SVIs).
 
 ## Quick start
@@ -32,6 +32,20 @@ For example, you could run the command:
 `python Zeroshot_UrbanCLIP.py --task=primary --device=cuda:0` 
 
 to reproduce the results in the paper on zero-shot primary function inference.
+
+## Citation
+
+If you use the code in this project, please cite the paper in IJGIS.
+```
+@article{huang2024urbanclip,
+  title={Zero-shot urban function inference with street view images through prompting a pretrained vision-language model},
+  author={Huang, Weiming and Wang, Jing and Cong, Gao},
+  journal={International Journal of Geographical Information Science},
+  pages={1--29},
+  year={2024},
+  publisher={Taylor \& Francis}
+}
+```
 
 ## `contact`
 
